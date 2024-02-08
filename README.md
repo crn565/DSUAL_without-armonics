@@ -1,6 +1,6 @@
 # REPOSITORIO DE 5 APLICATIVOS MAS EL AGREGADO MEDIANTE OZM V1 NO INCLUYENDO ARMONICOS
 
-Este es el repositorio que constituye el segundo experimento con ozm v1 usando datos acoplados temporalmente. El acople temporal nos indica que hay sincronización en el tiempo entre las diferentes medidas de los diferentes medidores asociados a la sincronización de uso común y el medidor común principal. En este experimento además de las medidas habituales usaremos los armónicos de tensión, corriente y potencia.
+Este es el repositorio que constituye el segundo experimento con ozm v1 usando datos acoplados temporalmente. El acople temporal nos indica que hay sincronización en el tiempo entre las diferentes medidas de los diferentes medidores asociados a la sincronización de uso común y el medidor común principal. En este experimento solo se se incluyen las medidas habituales ( no usaremos los armónicos de tensión, corriente y potencia).
 
 El OZM v1 es un medidor monofásico de energía eléctrica (aunque ya existe una versión trifásica), que es además también analizador de calidad de la energía. Este dispositivo, es tanto de código abierto como de hardware abierto, y ha sido desarrollado conjuntamente entre las Universidades de Almería y Granada, contando además con capacidades de IoT, lo cual no sólo nos permite medir una amplia gama de variables eléctricas a una elevada frecuencia de muestreo de 15625 Hz (voltaje, intensidad, potencia activa, potencia reactiva, distorsión armónica total o THD, factor de potencia y armónicos tanto de intensidad como de voltaje y potencia hasta el orden 50), sino que también nos permite capturar y tratar todas esas medidas.
 
@@ -18,7 +18,7 @@ Usamos 6 contadores tipo OZM aplicados a 5 electrodomésticos de uso común. Est
 
 6-Aspiradora
 
-En este repositorio se analiza el impacto de tomar los armónicos para desagregar el consumo eléctrico usando OZM v1 y el Toolkit NILMTK. En éste especificamos el número de medidas soportadas por los diferentes OZM, como son la potencia activa, aparente y reactiva, la frecuencia, el voltaje, la corriente y el factor de potencia. NO añadimos los armónicos de la tensión (50), corriente (50) y potencia (50), es decir,se ignoran los armónicos.
+En este repositorio se analiza el impacto de NO tomar los armónicos para desagregar el consumo eléctrico usando OZM v1 y el Toolkit NILMTK. En éste especificamos el número de medidas soportadas por los diferentes OZM, como son la potencia activa, aparente y reactiva, la frecuencia, el voltaje, la corriente y el factor de potencia. NO añadimos los armónicos de la tensión (50), corriente (50) y potencia (50), es decir,se ignoran los armónicos.
 
 Se adjunta en un directorio aparte dentro de root, el contenido de los ficheros yaml de metadatos, así como el nuevo convertidor que desprecia también los armónicos. Destacar que en los cuadernos de Jupyter Notebook no solo está el código en Python sino también los resultados de ejecutar sobre el dataset DSUALM0H, Asimismo, mencionar que para ejecutar este código necesitamos tener instalado el toolkit NILMTK (disponible también en Github), así como también disponer del nuevo dataset que ya incluye los armónicos.
 
