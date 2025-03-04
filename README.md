@@ -1,5 +1,6 @@
-# REPOSITORIO DE 5 APLICATIVOS MAS EL AGREGADO MEDIANTE OZM V1 NO INCLUYENDO ARMONICOS
-
+# 
+# REPOSITORY OF 5 APPLICATIONS PLUS AGGREGATION VIA OZM V1 NOT INCLUDING HARMONICS
+#
 Este es el repositorio que constituye el segundo experimento con ozm v1 usando datos acoplados temporalmente. El acople temporal nos indica que hay sincronización en el tiempo entre las diferentes medidas de los diferentes medidores asociados a la sincronización de uso común y el medidor común principal. En este experimento solo se se incluyen las medidas habituales ( por tanto no usaremos los armónicos de tensión, corriente y potencia).
 
 El OZM v1 utilizado para obtener las medidas que analizaremos en este repositorio, es un medidor monofásico de energía eléctrica (aunque ya existe una versión trifásica), que es además también analizador de calidad de la energía. Este dispositivo, es tanto de código abierto como de hardware abierto, y ha sido desarrollado conjuntamente entre las Universidades de Almería y Granada, contando además con capacidades de IoT, lo cual no sólo nos permite medir una amplia gama de variables eléctricas a una elevada frecuencia de muestreo de 15625 Hz (voltaje, intensidad, potencia activa, potencia reactiva, distorsión armónica total o THD, factor de potencia y armónicos tanto de intensidad como de voltaje y potencia hasta el orden 50), sino que también nos permite capturar y tratar todas esas medidas.
