@@ -98,7 +98,7 @@ Illustration 8-Comparison of GT with actual measurements
 
 As we can see, the results are quite good in terms of predictions, since, for example, for the kettle (in blue) there is only a small deviation of 0.2% from the actual data. Likewise, both the fan (in red) and the light (pink) show a minimal deviation and the hoover (in orange) only shows a deviation of 1.6%.
 
-# RESULTS# 
+# RESULTS
 
 NILMTK has the calculation of evaluation metrics through the use of the MeterGroup, for the validation of the results by means of the validation set. It is necessary to run different metrics such as FEAC, F1, EAE, MNEAP and RMSE on the models obtained, which gives us an output similar to Table 1.
 
@@ -154,12 +154,12 @@ Likewise, if we compare GT and Pred for the DS of DEPS , the divergences are ver
 
 Illustration 15-Comparison GT with Pred for DEPS
 
-# CONCLUSIONS# 
+# CONCLUSIONS
 
 In addition to incorporating the metrics and tools available in the NILMTK toolkit, the new 13-digit timestamp format and two new converters for measurements obtained from OZM (with or without transients) as well as two new converters based on IAWE (with or without transients) have been added to this work, thus eliminating the entry barrier for all researchers who have one or more OZM and wish to access NILM.
 On the other hand, if we compare the results of the metrics obtained on DSUALM or DSUALMT, compared to IAWE or DEPS, the results are much worse, especially in terms of the sampling period required, with the values obtained for the MNEAP metric standing out.
 
-# Publications# 
+# Publications
 
 There is an article by me about the NILM using single-phase OZM hardware instead of OZM v2:
 
