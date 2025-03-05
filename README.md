@@ -8,11 +8,17 @@ The OZM v1 used to obtain the measurements that we will analyse in this reposito
 We use 6 OZM v1 counters applied to 5 common household appliances. This is the list of devices:
 
 1- Mains (main meter)
-2-Kettle
-3-Fan
-4-Freezer
-5- TV
-6-Vacuum cleaner
+
+2 - Kettle
+
+3 - Fan
+
+4 - Freezer
+
+5 - TV
+
+6 - Vacuum cleaner
+
 
 In this repository we analyse the impact of NOT taking harmonics to disaggregate electricity consumption using OZM v1 and the NILMTK Toolkit. In this repository we specify the number of measurements supported by the different OZMs, such as active, apparent and reactive power, frequency, voltage, current and power factor. We do NOT add the harmonics of voltage (50), current (50) and power (50), i.e. harmonics are ignored.
 
